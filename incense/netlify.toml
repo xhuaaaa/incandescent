@@ -8,3 +8,5 @@
 
 # Netlify automatically installs its current Next.js / OpenNext adapter.
 # This is a server-rendered app. Do not add an SPA redirect to /index.html.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
