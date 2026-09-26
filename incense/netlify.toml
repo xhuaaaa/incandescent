@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Netlify automatically installs its current Next.js / OpenNext adapter.
+# This is a server-rendered app. Do not add an SPA redirect to /index.html.

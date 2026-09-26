@@ -1,0 +1,4 @@
+'use client';
+import { useLanguage } from '../i18n';
+import Frame from '../frame';
+export default function Page(){const {t}=useLanguage();return <Frame title={t("一炷香，連起日常與心意。")} kicker="ABOUT HOA"><div className="grid2"><img src="/incense.png" alt={t("傳統竹芯香與木色香材")} style={{width:'100%',height:480,objectFit:'cover'}}/><div><h2>{t("以香為名，")}<br/>{t("為生活留一點靜。")}</h2><p>{t("Hoa 的品牌提案，從寺廟裡一炷香的日常出發：敬神、祈願，也為忙碌的自己留下片刻安定。")}</p><p>{t("我們希望將選香變得簡單，讓香材、香氣與製作方式都能被看見。從日常禮佛香到木質香韻，依使用場合找到合適的選擇。")}</p><p className="muted">{t("目前為品牌概念試營運。商品配方、原料產地、實際規格與檢驗資訊將由品牌確認後上架；本頁不代表已有認證或產地保證。")}</p></div></div><div className="grid2"><section className="panel"><h3>{t("如何選香")}</h3><p>{t("日常敬香可先選禮佛香；喜歡溫潤木調可探索檀香，偏好深沉木韻可了解沉香。香氣描述為概念參考，實際以商品為準。")}</p></section><section className="panel"><h3>{t("使用與保存")}</h3><p>{t("使用穩固耐熱香座，保持通風，遠離易燃物與兒童寵物。燃香時請勿離開。未使用的香請密封存放在乾燥陰涼處。")}</p></section></div></Frame>}
